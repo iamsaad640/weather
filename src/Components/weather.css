@@ -1,0 +1,131 @@
+.weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.weather h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.weather h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.weather h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.weather h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.weather h5 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.weather h6 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.weather p {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.weather img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+ 
+.weather input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.weather button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: #f2f2f2;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.weather button:hover {
+  background-color: #e6e6e6;
+}
+
+.weather button:active {
+  background-color: #cccccc;
+}
+
+.weather button:focus {
+  outline: none;
+}
+
+.weather button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.weather button:disabled:hover {
+  background-color: #cccccc;
+}
+
+.weather button:disabled:active {
+  background-color: #cccccc;
+}
+
+.weather button:disabled:focus {
+  outline: none;
+}
+
+.weather .error {
+  color: red;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.weather .error:focus {
+  outline: none;
+}
+
+.weather .error:active {
+  outline: none;
+}
+
+.weather .error:hover {
+  outline: none;
+}
